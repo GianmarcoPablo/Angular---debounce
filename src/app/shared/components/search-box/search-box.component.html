@@ -1,0 +1,3 @@
+<input type="text" class="form-control " #txtInput [placeholder]="placeholder"
+    (keyup.enter)="emitSearch(txtInput.value)" (keyup)="onKeyPress(txtInput.value)" [value]="initialValue ">
+>
